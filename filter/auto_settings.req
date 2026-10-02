@@ -17,20 +17,9 @@
 
 #file SGM_settings.req P=$(P),SGM=SGM1
 
-file filterDrive.req "P=xxx:,R=filter:"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=1"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=2"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=3"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=4"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=5"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=6"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=7"
-file filterBladeNoSensor.req "P=xxx:,R=filter:,N=8"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=9"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=10"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=11"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=12"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=13"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=14"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=15"
-#file filterBladeNoSensor.req "P=xxx:,R=filter:,N=16"
+file filterDrive.req "P=BL172:,R=filter:"
+file filterBladeNoSensor.req "P=BL172:,R=filter:,N=1"
+file filterBladeNoSensor.req "P=BL172:,R=filter:,N=2"
+file filterBladeNoSensor.req "P=BL172:,R=filter:,N=3"
+file filterBladeNoSensor.req "P=BL172:,R=filter:,N=4"
+
