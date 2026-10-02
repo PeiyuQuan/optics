@@ -1,0 +1,28 @@
+
+
+#######output of 14-segment display#####
+
+record(ao, "$(P)$(R)SetEnergyBeamline") {
+	field(DESC, "$(DESC) beamline energy")
+	field(PREC, "2")
+	field(FLNK, "$(P)$(R)setmono_angle")
+}
+
+record (calcout, "$(P)$(R)setmono_angle")
+{
+        field(DESC,"energy")
+        field(INPA,"$(P)$(R)SetEnergyBeamline")
+        field(CALC, "asin(1.97704178/A)/0.0174533")
+	field(OUT,"$(setangle) PP")
+        field(PREC, "2")
+}
+
+record (calc, "$(P)$(R)energy_calc")
+{
+	field(DESC,"energy")
+	field(INPA,"$(angle) CP")
+	field(CALC, "1.97704178/sin(A*0.0174533)")
+	field(EGU, "keV")
+	field(PREC, "2")
+}
+
