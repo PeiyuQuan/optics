@@ -26,6 +26,6 @@ dbLoadTemplate "filter.substitutions"
 iocInit
 
 # Alternative pf4 filter seq program
-seq &filterDrive,"NAME=filterDrive,P=xxx:,R=filter:,NUM_FILTERS=4"
+seq &filterDrive,"NAME=filterDrive,P=BL172:,R=filter:,NUM_FILTERS=4"
 
 dbcar(0,1)
