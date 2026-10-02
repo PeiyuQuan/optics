@@ -3,29 +3,17 @@
 file "$(OPTICS)/opticsApp/Db/filterBladeNoSensor.db" {
   pattern
   {P,      R,        N,   DESC,           OUT                  OUT_STRING,  IN_STRING}
-  {xxx:,   filter:,  1,   "Filter 1",     "E1608:Bd1",   "Out",       "In"}
-  {xxx:,   filter:,  2,   "Filter 2",     "E1608:Bd2",   "Out",       "In"}
-  {xxx:,   filter:,  3,   "Filter 3",     "E1608:Bd3",   "Out",       "In"}
-  {xxx:,   filter:,  4,   "Filter 4",     "E1608:Bd4",   "Out",       "In"}
-#  {xxx:,   filter:,  5,   "Filter 5",     "E1608:Bd5",   "Out",       "In"}
-#  {xxx:,   filter:,  6,   "Filter 6",     "E1608:Bd6",   "Out",       "In"}
-#  {xxx:,   filter:,  7,   "Filter 7",     "E1608:Bd7",   "Out",       "In"}
-#  {xxx:,   filter:,  8,   "Filter 8",     "E1608:Bd8",   "Out",       "In"}
-#  {xxx:,   filter:,  9,   "Filter 9",     "xxx:userTran1.I",   "Out",       "In"}
-#  {xxx:,   filter:,  10,  "Filter 10",    "xxx:userTran1.J",   "Out",       "In"}
-#  {xxx:,   filter:,  11,  "Filter 11",    "xxx:userTran1.K",   "Out",       "In"}
-#  {xxx:,   filter:,  12,  "Filter 12",    "xxx:userTran1.L",   "Out",       "In"}
-#  {xxx:,   filter:,  13,  "Filter 13",    "xxx:userTran1.M",   "Out",       "In"}
-#  {xxx:,   filter:,  14,  "Filter 14",    "xxx:userTran1.N",   "Out",       "In"}
-#  {xxx:,   filter:,  15,  "Filter 15",    "xxx:userTran1.O",   "Out",       "In"}
-#  {xxx:,   filter:,  16,  "Filter 16",    "xxx:userTran1.P",   "Out",       "In"}
+  {BL172:,   filter:,  1,   "Filter 1",     "E1608:Bd1",   "Out",       "In"}
+  {BL172:,   filter:,  2,   "Filter 2",     "E1608:Bd2",   "Out",       "In"}
+  {BL172:,   filter:,  3,   "Filter 3",     "E1608:Bd3",   "Out",       "In"}
+  {BL172:,   filter:,  4,   "Filter 4",     "E1608:Bd4",   "Out",       "In"}
 }
 
 file "$(OPTICS)/opticsApp/Db/filterDrive.db" {
-  {P="xxx:", R="filter:", DESC="Filters", KEV="xxx:filter:energy_calc"}
+  {P="BL172:", R="filter:", DESC="Filters", KEV="BL172:filter:energy_calc"}
 }
 
 file "$(OPTICS)/opticsApp/Db/energy_calc.db" {
-  {P="xxx:", R="filter:", DESC="Set", angle="IMS:1.RBV",setangle="IMS:1.VAL"
+  {P="BL172:", R="filter:", DESC="Set", angle="IMS:1.RBV",setangle="IMS:1.VAL"
 }
 
